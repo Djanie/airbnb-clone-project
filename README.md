@@ -180,4 +180,11 @@ The **CI/CD pipeline** automates the testing, building, and deployment process t
 ###  Key Benefits
 
 - **Early Error Detection**: Automatically tests every commit to catch bugs before they
+- **Code Quality Assurance**: Enforces standards through linting, formatting, and automated tests.
+- **Faster Releases**: Streamlines deployment so features and fixes go live quickly.
+- **Developer Confidence**: Reduces manual steps, ensuring consistency across environments.
 
+###  Tools Used
+
+- **GitHub Actions**: Automates workflows for testing, building, and deploying the app.
+- **Docker**: Provides consistent development, staging, and production environments.
