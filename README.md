@@ -131,3 +131,26 @@ The database is designed to support the core functionality of the **Airbnb Clone
 
 - **Bookings ↔ Payments**: One booking can have one payment record.  
   → One-to-One (Booking 1:1 Payment)
+
+
+##  Feature Breakdown
+
+Below are the main features of the **Airbnb Clone Project**, each contributing to a seamless and functional booking platform:
+
+###  User Management
+Enables registration, authentication, and profile management for hosts and guests. This ensures secure access and personalized experiences, supporting multiple roles like admin, host, and guest.
+
+###  Property Management
+Allows hosts to create, update, and delete property listings with details like price, location, and amenities. It powers core functionality by enabling property discovery and bookings.
+
+###  Booking System
+Facilitates booking creation, modification, and cancellation, including date selection and dynamic price calculation. This feature ensures smooth, reliable transactions between guests and hosts.
+
+###  Search and Filter
+Provides tools for users to search properties by location, price, or amenities, and filter results for relevance. This enhances the user experience by helping guests find exactly what they need.
+
+###  Reviews and Ratings
+Allows guests to leave feedback and ratings after their stay. It builds trust and transparency, influencing future bookings and host reputations.
+
+###  Payment Processing
+Handles secure payment transactions for bookings and supports multiple payment methods. This feature ensures reliable and safe financial interactions within the platform.
