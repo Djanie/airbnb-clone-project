@@ -55,3 +55,26 @@ Oversees the project timeline, coordinates team efforts, and ensures deliverable
 
 ###  Quality Assurance (QA) Engineer
 Tests the application to identify bugs, ensure functionality, and verify security measures. They create test cases, perform manual and automated testing, and validate features like booking flows and user authentication.
+
+
+##  Technology Stack
+
+Below is the technology stack used in the **Airbnb Clone Project**, along with the purpose of each technology:
+
+###  Django (Python)
+A high-level web framework used for building the backend, including RESTful APIs and server-side logic. It simplifies development with built-in security features and rapid prototyping capabilities.
+
+###  MySQL
+A relational database management system used to store and manage structured data, such as user profiles, property listings, and booking records, ensuring data integrity and efficient querying.
+
+###  GraphQL
+A query language for APIs that enables flexible and efficient data retrieval, allowing the frontend to request only the required data for features like property searches and user dashboards.
+
+###  GitHub Actions
+A CI/CD tool for automating testing, building, and deployment pipelines, ensuring consistent and error-free delivery of the application to development and production environments.
+
+###  Docker
+A containerization platform used to package the application and its dependencies, ensuring consistency across development, testing, and production environments.
+
+###  Git & GitHub
+Tools for version control and collaborative development, enabling team coordination, code reviews, and branching strategies for feature integration.
