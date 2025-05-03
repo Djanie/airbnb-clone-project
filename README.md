@@ -78,3 +78,56 @@ A containerization platform used to package the application and its dependencies
 
 ###  Git & GitHub
 Tools for version control and collaborative development, enabling team coordination, code reviews, and branching strategies for feature integration.
+
+
+##  Database Design
+
+The database is designed to support the core functionality of the **Airbnb Clone Project**, using **MySQL** to manage relational data. Below are the key entities, their essential fields, and how they relate to one another.
+
+###  Key Entities and Fields
+
+####  Users
+- `id`: Unique identifier for each user (Primary Key).
+- `email`: User's email address for login and communication.
+- `password`: Hashed password for secure authentication.
+- `name`: User's full name for profile display.
+- `role`: Indicates whether the user is a host, guest, or admin.
+
+####  Properties
+- `id` Unique identifier for each property (Primary Key).
+- `title`: Name or title of the property (e.g., "Cozy Beach House").
+- `description`: Detailed description of the property.
+- `price_per_night`: Cost of renting the property per night.
+- `location`: Address or geographic coordinates of the property.
+
+####  Bookings
+- `id`: Unique identifier for each booking (Primary Key).
+- `check_in_date`: Start date of the booking.
+- `check_out_date`: End date of the booking.
+- `total_price`: Total cost of the booking.
+- `status`: Booking status (e.g., pending, confirmed, canceled).
+
+
+####  Payments
+- `id`: Unique identifier for each payment (Primary Key).
+- `amount`: Amount paid for the booking.
+- `payment_method`: Method used (e.g., credit card, PayPal).
+- `payment_date`: Date the payment was processed.
+- `status`: Payment status (e.g., completed, refunded).
+
+###  Entity Relationships
+
+- **Users ↔ Properties**: One user (host) can own multiple properties.  
+  → One-to-Many (User 1:N Properties)
+
+- **Users ↔ Bookings**: One user (guest) can make multiple bookings.  
+  → One-to-Many (User 1:N Bookings)
+
+- **Properties ↔ Bookings**: One property can be booked multiple times.  
+  → One-to-Many (Property 1:N Bookings)
+
+- **Bookings ↔ Reviews**: One booking can have one review from the guest.  
+  → One-to-One (Booking 1:1 Review)
+
+- **Bookings ↔ Payments**: One booking can have one payment record.  
+  → One-to-One (Booking 1:1 Payment)
