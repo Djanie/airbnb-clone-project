@@ -173,3 +173,11 @@ Robust API security is a critical component of the **Airbnb Clone Project**, ens
 - **Preventing Unauthorized Access**: Restricts access to sensitive endpoints to preserve system integrity.
 - **Maintaining Availability**: Uses rate limiting to keep the platform stable and accessible for all users.
 
+##  CI/CD Pipeline
+
+The **CI/CD pipeline** automates the testing, building, and deployment process to ensure fast and reliable code delivery throughout the Airbnb Clone Project.
+
+###  Key Benefits
+
+- **Early Error Detection**: Automatically tests every commit to catch bugs before they
+
