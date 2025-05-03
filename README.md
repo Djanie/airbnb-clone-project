@@ -154,3 +154,22 @@ Allows guests to leave feedback and ratings after their stay. It builds trust an
 
 ###  Payment Processing
 Handles secure payment transactions for bookings and supports multiple payment methods. This feature ensures reliable and safe financial interactions within the platform.
+
+##  API Security
+
+Robust API security is a critical component of the **Airbnb Clone Project**, ensuring safe, reliable, and compliant interactions across the platform.
+
+###  Key Security Measures
+
+- **Authentication**: Uses JWT (JSON Web Tokens) to verify user identity for secure API access.
+- **Authorization**: Implements role-based access control to restrict actions based on user roles (e.g., host, guest).
+- **Rate Limiting**: Caps API request frequency to prevent abuse and ensure system stability.
+- **Data Encryption**: Applies HTTPS and encrypts sensitive data in transit and at rest.
+
+###  Importance of Security
+
+- **Protecting User Data**: Safeguards personal information like emails and passwords, maintaining user trust and legal compliance.
+- **Securing Payments**: Ensures transactions are safe, helping prevent fraud and financial theft.
+- **Preventing Unauthorized Access**: Restricts access to sensitive endpoints to preserve system integrity.
+- **Maintaining Availability**: Uses rate limiting to keep the platform stable and accessible for all users.
+
